@@ -1,0 +1,329 @@
+31 Mar 15:46:06,500 [main] ERROR elementIdentification.usingID  - **********Initializing Test case************
+31 Mar 15:46:44,878 [main] INFO  elementIdentification.usingID  - Chrome Browser is launched
+07 Apr 13:58:24,122 [main] DEBUG configReader.log4jConfigReader  - Log4j appender configuration is successful !!
+07 Apr 14:15:44,376 [main] INFO  Naukri  - Launched Naukri website
+07 Apr 14:16:22,167 [main] INFO  seleniumHQ  - Launched seleniumHQ website
+07 Apr 14:29:53,495 [main] INFO  Naukri  - Launched Naukri website
+07 Apr 14:30:29,890 [main] INFO  seleniumHQ  - Launched seleniumHQ website
+07 Apr 14:36:39,118 [main] INFO  Naukri  - Launched Naukri website
+07 Apr 14:37:15,235 [main] INFO  seleniumHQ  - Launched seleniumHQ website
+07 Apr 14:38:47,023 [main] INFO  Naukri  - Launched Naukri website
+07 Apr 14:39:22,720 [main] INFO  seleniumHQ  - Launched seleniumHQ website
+07 Apr 14:41:11,604 [main] INFO  Naukri  - Launched Naukri website
+07 Apr 14:41:48,860 [main] INFO  seleniumHQ  - Launched seleniumHQ website
+13 Apr 15:21:47,872 [main] INFO  Selenium  - Log4J properties is initialised
+13 Apr 15:21:47,875 [main] INFO  Selenium  - Properties files is initialised
+13 Apr 15:21:52,246 [main] INFO  Selenium  - Chrome Driver is launched
+13 Apr 15:23:57,417 [main] INFO  Selenium  - Log4J properties is initialised
+13 Apr 15:23:57,420 [main] INFO  Selenium  - Properties files is initialised
+13 Apr 15:24:01,793 [main] INFO  Selenium  - Chrome Driver is launched
+13 Apr 15:24:01,794 [main] INFO  Selenium  - Environment selected: test
+13 Apr 15:24:01,794 [main] INFO  Selenium  - URL selected: http://naukri.com
+13 Apr 15:25:15,158 [main] INFO  Selenium  - Log4J properties is initialised
+13 Apr 15:25:15,162 [main] INFO  Selenium  - Properties files is initialised
+13 Apr 15:25:21,919 [main] INFO  Selenium  - IE browser is launched
+13 Apr 15:25:21,919 [main] INFO  Selenium  - Environment selected: test
+13 Apr 15:25:21,919 [main] INFO  Selenium  - URL selected: http://naukri.com
+13 Apr 15:26:26,967 [main] INFO  Selenium  - Log4J properties is initialised
+13 Apr 15:26:26,971 [main] INFO  Selenium  - Properties files is initialised
+13 Apr 15:26:29,388 [main] INFO  Selenium  - IE browser is launched
+13 Apr 15:26:29,388 [main] INFO  Selenium  - Environment selected: test
+13 Apr 15:26:29,389 [main] INFO  Selenium  - URL selected: http://naukri.com
+13 Apr 15:26:57,379 [main] INFO  Selenium  - Test annotation
+13 Apr 15:30:22,573 [main] INFO  Selenium  - Log4J properties is initialised
+13 Apr 15:30:22,576 [main] INFO  Selenium  - Properties files is initialised
+13 Apr 15:30:25,011 [main] INFO  Selenium  - IE browser is launched
+13 Apr 15:30:25,011 [main] INFO  Selenium  - Environment selected: test
+13 Apr 15:30:25,011 [main] INFO  Selenium  - URL selected: http://naukri.com
+13 Apr 15:30:31,252 [main] INFO  Selenium  - URL selected: http://www.seleniumhq.org
+13 Apr 15:30:43,960 [main] INFO  Selenium  - title of page Selenium - Web Browser Automation
+21 Apr 14:14:33,542 [main] INFO  testBase.domainObjects  - Log4J properties is initialised
+21 Apr 14:14:38,602 [main] INFO  testBase.domainObjects  - Chrome Driver is launched
+21 Apr 14:14:58,269 [main] INFO  testBase.domainObjects  - Log4J properties is initialised
+21 Apr 14:15:02,609 [main] INFO  testBase.domainObjects  - Chrome Driver is launched
+21 Apr 14:15:02,625 [main] INFO  testBase.domainObjects  - URL selected: http://www.seleniumhq.org
+21 Apr 14:28:47,380 [main] INFO  initializelog4J  - Log4J properties is initialised
+21 Apr 14:28:47,383 [main] INFO  Reading properties files  - browser selected in properties file: chrome
+21 Apr 14:28:51,582 [main] INFO  launchBrowser  - Chrome Driver is launched
+21 Apr 14:28:51,595 [main] INFO  testCase1  - URL selected: http://www.seleniumhq.org
+21 Apr 14:31:59,055 [main] INFO  TestBase  - Log4J properties is initialised
+21 Apr 14:31:59,058 [main] INFO  TestBase  - browser selected in properties file: chrome
+21 Apr 14:32:03,088 [main] INFO  TestBase  - Chrome Driver is launched
+21 Apr 14:32:03,104 [main] INFO  testCase1  - URL selected: http://www.seleniumhq.org
+21 Apr 14:44:12,155 [main] INFO  Annotations  - @BeforeSuite Annotation
+21 Apr 14:44:12,158 [main] INFO  Annotations  - @BeforeTest Annotation
+21 Apr 14:44:12,163 [main] INFO  Annotations  - @BeforeClass Annotation
+21 Apr 14:44:12,167 [main] INFO  Annotations  - @BeforeMethod Annotation
+21 Apr 14:44:12,182 [main] INFO  Annotations  - @AfterMethod Annotation
+21 Apr 14:44:12,182 [main] INFO  Annotations  - @BeforeMethod Annotation
+21 Apr 14:44:12,184 [main] INFO  Annotations  - @AfterMethod Annotation
+21 Apr 14:44:12,184 [main] INFO  Annotations  - @BeforeMethod Annotation
+21 Apr 14:44:12,185 [main] INFO  Annotations  - Test Annotation
+21 Apr 14:44:12,185 [main] INFO  Annotations  - @AfterMethod Annotation
+21 Apr 14:44:12,186 [main] INFO  Annotations  - @AfterClass Annotation
+21 Apr 14:44:12,187 [main] INFO  Annotations  - @AfterTest Annotation
+21 Apr 14:44:12,209 [main] INFO  Annotations  - @AfterSuite Annotation
+21 Apr 14:46:00,369 [main] INFO  Annotations  - @BeforeSuite Annotation
+21 Apr 14:46:00,372 [main] INFO  Annotations  - @BeforeTest Annotation
+21 Apr 14:46:00,378 [main] INFO  Annotations  - @BeforeClass Annotation
+21 Apr 14:46:00,381 [main] INFO  Annotations  - @BeforeMethod Annotation
+21 Apr 14:46:00,394 [main] INFO  Annotations  - @Test Annotation Test case 1
+21 Apr 14:46:00,395 [main] INFO  Annotations  - @AfterMethod Annotation
+21 Apr 14:46:00,396 [main] INFO  Annotations  - @BeforeMethod Annotation
+21 Apr 14:46:00,397 [main] INFO  Annotations  - @Test Annotation Test case 2
+21 Apr 14:46:00,398 [main] INFO  Annotations  - @AfterMethod Annotation
+21 Apr 14:46:00,399 [main] INFO  Annotations  - @BeforeMethod Annotation
+21 Apr 14:46:00,400 [main] INFO  Annotations  - Test Annotation
+21 Apr 14:46:00,401 [main] INFO  Annotations  - @AfterMethod Annotation
+21 Apr 14:46:00,401 [main] INFO  Annotations  - @AfterClass Annotation
+21 Apr 14:46:00,403 [main] INFO  Annotations  - @AfterTest Annotation
+21 Apr 14:46:00,422 [main] INFO  Annotations  - @AfterSuite Annotation
+21 Apr 14:52:27,287 [main] INFO  Annotations  - @BeforeSuite Annotation
+21 Apr 14:52:27,292 [main] INFO  Annotations  - @BeforeTest Annotation
+21 Apr 14:52:27,299 [main] INFO  Annotations  - @BeforeClass Annotation
+21 Apr 14:52:27,303 [main] INFO  Annotations  - @BeforeMethod Annotation
+21 Apr 14:52:27,320 [main] INFO  Annotations  - @Test Annotation Test case 1
+21 Apr 14:52:27,321 [main] INFO  Annotations  - @AfterMethod Annotation
+21 Apr 14:52:27,321 [main] INFO  Annotations  - @BeforeMethod Annotation
+21 Apr 14:52:27,322 [main] INFO  Annotations  - @Test Annotation Test case 2
+21 Apr 14:52:27,324 [main] INFO  Annotations  - @AfterMethod Annotation
+21 Apr 14:52:27,325 [main] INFO  Annotations  - @BeforeMethod Annotation
+21 Apr 14:52:27,327 [main] INFO  Annotations  - @AfterMethod Annotation
+21 Apr 14:52:27,327 [main] INFO  Annotations  - @BeforeMethod Annotation
+21 Apr 14:52:27,328 [main] INFO  Annotations  - Test Annotation
+21 Apr 14:52:27,330 [main] INFO  Annotations  - @AfterMethod Annotation
+21 Apr 14:52:27,331 [main] INFO  Annotations  - @AfterClass Annotation
+21 Apr 14:52:27,336 [main] INFO  Annotations  - @AfterTest Annotation
+21 Apr 14:52:27,356 [main] INFO  Annotations  - @AfterSuite Annotation
+21 Apr 14:55:22,068 [main] INFO  Annotations  - @BeforeSuite Annotation
+21 Apr 14:55:22,071 [main] INFO  Annotations  - @BeforeTest Annotation
+21 Apr 14:55:22,077 [main] INFO  Annotations  - @BeforeClass Annotation
+21 Apr 14:55:22,079 [main] INFO  Annotations  - @BeforeMethod Annotation
+21 Apr 14:55:22,092 [main] INFO  Annotations  - @Test Annotation Test case 1
+21 Apr 14:55:22,093 [main] INFO  Annotations  - @AfterMethod Annotation
+21 Apr 14:55:22,094 [main] INFO  Annotations  - @BeforeMethod Annotation
+21 Apr 14:55:22,095 [main] INFO  Annotations  - @Test Annotation Test case 2
+21 Apr 14:55:22,095 [main] INFO  Annotations  - @AfterMethod Annotation
+21 Apr 14:55:22,096 [main] INFO  Annotations  - @BeforeMethod Annotation
+21 Apr 14:55:22,098 [main] INFO  Annotations  - @Test Annotation This is test case 3
+21 Apr 14:55:22,100 [main] INFO  Annotations  - @AfterMethod Annotation
+21 Apr 14:55:22,101 [main] INFO  Annotations  - @BeforeMethod Annotation
+21 Apr 14:55:22,102 [main] INFO  Annotations  - Test Annotation
+21 Apr 14:55:22,103 [main] INFO  Annotations  - @AfterMethod Annotation
+21 Apr 14:55:22,104 [main] INFO  Annotations  - @AfterClass Annotation
+21 Apr 14:55:22,108 [main] INFO  Annotations  - @AfterTest Annotation
+21 Apr 14:55:22,130 [main] INFO  Annotations  - @AfterSuite Annotation
+21 Apr 14:59:18,039 [main] INFO  TestBase  - Log4J properties is initialised
+21 Apr 14:59:18,042 [main] INFO  TestBase  - browser selected in properties file: chrome
+21 Apr 14:59:22,199 [main] INFO  TestBase  - Chrome Driver is launched
+21 Apr 14:59:22,219 [main] INFO  testCase1  - URL selected: http://www.seleniumhq.org
+21 Apr 15:00:25,237 [main] INFO  TestBase  - Log4J properties is initialised
+21 Apr 15:00:25,241 [main] INFO  TestBase  - browser selected in properties file: chrome
+21 Apr 15:00:29,373 [main] INFO  TestBase  - Chrome Driver is launched
+21 Apr 15:00:29,390 [main] INFO  testCase1  - URL selected: http://www.seleniumhq.org
+21 Apr 15:01:03,346 [main] INFO  testCase1  - URL selected: http://www.google.com
+27 Apr 14:00:29,203 [main] INFO  java.lang.Class  - Log4J properties is initialised
+27 Apr 14:00:29,245 [main] INFO  java.lang.Class  - browser selected in properties file: chrome
+27 Apr 14:00:34,935 [main] INFO  java.lang.Class  - Chrome Driver is launched
+27 Apr 14:00:34,971 [main] INFO  testCase1  - URL selected: http://www.seleniumhq.org
+27 Apr 14:01:04,315 [main] INFO  testCase2  - URL selected: http://www.google.com
+27 Apr 14:01:05,538 [main] INFO  testCase2  - Browser closed
+27 Apr 14:02:10,639 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 14:02:10,643 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 14:02:15,135 [main] INFO  TestBase  - Chrome Driver is launched
+27 Apr 14:02:15,150 [main] INFO  testCase1  - URL selected: http://www.seleniumhq.org
+27 Apr 14:02:44,507 [main] INFO  testCase2  - URL selected: http://www.google.com
+27 Apr 14:02:45,662 [main] INFO  testCase2  - Browser closed
+27 Apr 14:46:38,648 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 14:46:38,652 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 14:46:46,730 [main] INFO  TestBase  - Chrome Driver is launched
+27 Apr 14:46:47,453 [main] INFO  TestBase  - Browser closed
+27 Apr 14:53:17,467 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 14:53:17,471 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 14:53:17,526 [main] INFO  TestBase  - Browser closed
+27 Apr 14:54:17,694 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 14:54:17,698 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 14:55:04,592 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 14:55:04,597 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 14:55:24,359 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 14:55:24,363 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 14:56:28,051 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 14:56:28,053 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 14:56:57,662 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 14:56:57,664 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 14:57:27,242 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 14:57:27,245 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 14:57:59,081 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 14:57:59,083 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 14:58:35,826 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 14:58:35,828 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 14:58:48,625 [main] INFO  TestBase  - Chrome Driver is launched
+27 Apr 14:58:49,174 [main] INFO  TestBase  - Browser closed
+27 Apr 15:09:42,146 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 15:09:42,148 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 15:09:46,221 [main] INFO  TestBase  - Chrome Driver is launched
+27 Apr 15:09:46,857 [main] INFO  TestBase  - Browser closed
+27 Apr 15:11:40,099 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 15:11:40,101 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 15:11:44,221 [main] INFO  TestBase  - Chrome Driver is launched
+27 Apr 15:11:45,095 [main] INFO  TestBase  - Browser closed
+27 Apr 15:12:30,739 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 15:12:30,742 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 15:12:34,881 [main] INFO  TestBase  - Chrome Driver is launched
+27 Apr 15:12:35,514 [main] INFO  TestBase  - Browser closed
+27 Apr 15:13:31,403 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 15:13:31,405 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 15:13:35,602 [main] INFO  TestBase  - Chrome Driver is launched
+27 Apr 15:13:36,241 [main] INFO  TestBase  - Browser closed
+27 Apr 15:15:28,148 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 15:15:28,151 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 15:15:34,815 [main] INFO  TestBase  - Chrome Driver is launched
+27 Apr 15:19:25,720 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 15:19:25,723 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 15:19:33,802 [main] INFO  TestBase  - Chrome Driver is launched
+27 Apr 15:19:33,808 [main] INFO  TestBase  - BeforeClass
+27 Apr 15:19:34,675 [main] INFO  TestBase  - BeforeMethod
+27 Apr 15:19:34,680 [main] INFO  TestBase  - AfterMethod
+27 Apr 15:19:34,680 [main] INFO  TestBase  - AfterClass
+27 Apr 15:19:34,697 [main] INFO  TestBase  - BeforeClass
+27 Apr 15:19:34,697 [main] INFO  TestBase  - BeforeMethod
+27 Apr 15:19:34,698 [main] INFO  TestBase  - AfterMethod
+27 Apr 15:19:34,699 [main] INFO  TestBase  - AfterClass
+27 Apr 15:19:34,705 [main] INFO  TestBase  - BeforeClass
+27 Apr 15:19:34,706 [main] INFO  TestBase  - BeforeMethod
+27 Apr 15:19:34,708 [main] INFO  TestBase  - AfterMethod
+27 Apr 15:19:34,709 [main] INFO  TestBase  - AfterClass
+27 Apr 15:19:39,087 [main] INFO  TestBase  - Browser closed
+27 Apr 15:23:25,476 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 15:23:25,479 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 15:23:29,473 [main] INFO  TestBase  - Chrome Driver is launched
+27 Apr 15:23:29,479 [main] INFO  TestBase  - BeforeClass
+27 Apr 15:23:29,485 [main] INFO  TestBase  - BeforeMethod
+27 Apr 15:23:29,491 [main] INFO  TestBase  - AfterMethod
+27 Apr 15:23:29,492 [main] INFO  TestBase  - AfterClass
+27 Apr 15:23:29,515 [main] INFO  TestBase  - BeforeClass
+27 Apr 15:23:29,516 [main] INFO  TestBase  - BeforeMethod
+27 Apr 15:23:29,519 [main] INFO  TestBase  - AfterMethod
+27 Apr 15:23:29,521 [main] INFO  TestBase  - BeforeMethod
+27 Apr 15:23:29,523 [main] INFO  TestBase  - AfterMethod
+27 Apr 15:23:29,524 [main] INFO  TestBase  - AfterClass
+27 Apr 15:23:29,529 [main] INFO  TestBase  - BeforeClass
+27 Apr 15:23:29,530 [main] INFO  TestBase  - BeforeMethod
+27 Apr 15:23:29,532 [main] INFO  TestBase  - AfterMethod
+27 Apr 15:23:29,532 [main] INFO  TestBase  - AfterClass
+27 Apr 15:23:30,160 [main] INFO  TestBase  - Browser closed
+27 Apr 15:26:11,013 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 15:26:11,016 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 15:26:15,099 [main] INFO  TestBase  - Chrome Driver is launched
+27 Apr 15:26:15,102 [main] INFO  TestBase  - BeforeTest
+27 Apr 15:26:15,107 [main] INFO  TestBase  - BeforeClass
+27 Apr 15:26:15,111 [main] INFO  TestBase  - BeforeMethod
+27 Apr 15:26:15,116 [main] INFO  TestBase  - AfterMethod
+27 Apr 15:26:15,120 [main] INFO  TestBase  - AfterClass
+27 Apr 15:26:15,121 [main] INFO  TestBase  - AfterTest
+27 Apr 15:26:15,140 [main] INFO  TestBase  - BeforeTest
+27 Apr 15:26:15,141 [main] INFO  TestBase  - BeforeClass
+27 Apr 15:26:15,143 [main] INFO  TestBase  - BeforeMethod
+27 Apr 15:26:15,145 [main] INFO  TestBase  - AfterMethod
+27 Apr 15:26:15,146 [main] INFO  TestBase  - BeforeMethod
+27 Apr 15:26:15,148 [main] INFO  TestBase  - AfterMethod
+27 Apr 15:26:15,149 [main] INFO  TestBase  - AfterClass
+27 Apr 15:26:15,149 [main] INFO  TestBase  - AfterTest
+27 Apr 15:26:15,155 [main] INFO  TestBase  - BeforeTest
+27 Apr 15:26:15,156 [main] INFO  TestBase  - BeforeClass
+27 Apr 15:26:15,156 [main] INFO  TestBase  - BeforeMethod
+27 Apr 15:26:15,162 [main] INFO  TestBase  - AfterMethod
+27 Apr 15:26:15,162 [main] INFO  TestBase  - AfterClass
+27 Apr 15:26:15,163 [main] INFO  TestBase  - AfterTest
+27 Apr 15:26:15,790 [main] INFO  TestBase  - Browser closed
+27 Apr 15:35:26,371 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 15:35:26,373 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 15:35:26,384 [main] INFO  TestBase  - BeforeTest
+27 Apr 15:35:26,397 [pool-1-thread-3] INFO  TestBase  - BeforeClass
+27 Apr 15:35:26,397 [pool-1-thread-2] INFO  TestBase  - BeforeClass
+27 Apr 15:35:26,397 [pool-1-thread-1] INFO  TestBase  - BeforeClass
+27 Apr 15:35:26,400 [pool-1-thread-1] INFO  TestBase  - BeforeMethod
+27 Apr 15:35:26,400 [pool-1-thread-3] INFO  TestBase  - BeforeMethod
+27 Apr 15:35:26,400 [pool-1-thread-2] INFO  TestBase  - BeforeMethod
+27 Apr 15:35:26,407 [pool-1-thread-2] INFO  TestBase  - AfterMethod
+27 Apr 15:35:26,407 [pool-1-thread-2] INFO  TestBase  - AfterClass
+27 Apr 15:35:26,407 [pool-1-thread-3] INFO  TestBase  - AfterMethod
+27 Apr 15:35:26,408 [pool-1-thread-3] INFO  TestBase  - AfterClass
+27 Apr 15:35:30,412 [pool-1-thread-1] INFO  TestBase  - Chrome Driver is launched
+27 Apr 15:35:30,413 [pool-1-thread-1] INFO  TestBase  - URL selected: http://www.rediffmail.com
+27 Apr 15:36:01,903 [pool-1-thread-1] INFO  TestBase  - AfterMethod
+27 Apr 15:36:01,904 [pool-1-thread-1] INFO  TestBase  - AfterClass
+27 Apr 15:36:01,904 [main] INFO  TestBase  - AfterTest
+27 Apr 15:36:01,922 [main] INFO  TestBase  - Browser closed
+27 Apr 15:36:44,046 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 15:36:44,048 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 15:36:44,058 [main] INFO  TestBase  - BeforeTest
+27 Apr 15:36:44,070 [pool-1-thread-2] INFO  TestBase  - BeforeClass
+27 Apr 15:36:44,070 [pool-1-thread-1] INFO  TestBase  - BeforeClass
+27 Apr 15:36:44,070 [pool-1-thread-3] INFO  TestBase  - BeforeClass
+27 Apr 15:36:44,076 [pool-1-thread-1] INFO  TestBase  - BeforeMethod
+27 Apr 15:36:44,076 [pool-1-thread-3] INFO  TestBase  - BeforeMethod
+27 Apr 15:36:44,076 [pool-1-thread-2] INFO  TestBase  - BeforeMethod
+27 Apr 15:36:44,083 [pool-1-thread-2] INFO  TestBase  - AfterMethod
+27 Apr 15:36:44,083 [pool-1-thread-3] INFO  TestBase  - AfterMethod
+27 Apr 15:36:44,083 [pool-1-thread-2] INFO  TestBase  - AfterClass
+27 Apr 15:36:44,083 [pool-1-thread-3] INFO  TestBase  - AfterClass
+27 Apr 15:36:48,051 [pool-1-thread-1] INFO  TestBase  - Chrome Driver is launched
+27 Apr 15:36:48,051 [pool-1-thread-1] INFO  TestBase  - URL selected: http://www.seleniumhq.org
+27 Apr 15:37:17,358 [pool-1-thread-1] INFO  TestBase  - AfterMethod
+27 Apr 15:37:17,359 [pool-1-thread-1] INFO  TestBase  - AfterClass
+27 Apr 15:37:17,361 [main] INFO  TestBase  - AfterTest
+27 Apr 15:37:17,380 [main] INFO  TestBase  - Browser closed
+27 Apr 15:39:22,108 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 15:39:22,110 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 15:39:22,122 [main] INFO  TestBase  - BeforeTest
+27 Apr 15:39:22,130 [main] INFO  TestBase  - BeforeClass
+27 Apr 15:39:22,135 [main] INFO  TestBase  - BeforeMethod
+27 Apr 15:39:26,255 [main] INFO  TestBase  - Chrome Driver is launched
+27 Apr 15:39:26,255 [main] INFO  TestBase  - URL selected: http://www.seleniumhq.org
+27 Apr 15:39:55,625 [main] INFO  TestBase  - AfterMethod
+27 Apr 15:39:55,625 [main] INFO  TestBase  - AfterClass
+27 Apr 15:39:55,626 [main] INFO  TestBase  - BeforeClass
+27 Apr 15:39:55,627 [main] INFO  TestBase  - BeforeMethod
+27 Apr 15:39:55,629 [main] INFO  TestBase  - AfterMethod
+27 Apr 15:39:55,630 [main] INFO  TestBase  - AfterClass
+27 Apr 15:39:55,630 [main] INFO  TestBase  - BeforeClass
+27 Apr 15:39:55,630 [main] INFO  TestBase  - BeforeMethod
+27 Apr 15:39:55,632 [main] INFO  TestBase  - AfterMethod
+27 Apr 15:39:55,632 [main] INFO  TestBase  - AfterClass
+27 Apr 15:39:55,632 [main] INFO  TestBase  - AfterTest
+27 Apr 15:39:55,654 [main] INFO  TestBase  - Browser closed
+27 Apr 15:41:27,168 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 15:41:27,170 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 15:41:27,182 [main] INFO  TestBase  - BeforeTest
+27 Apr 15:41:27,194 [pool-1-thread-1] INFO  TestBase  - BeforeClass
+27 Apr 15:41:27,198 [pool-1-thread-1] INFO  TestBase  - BeforeMethod
+27 Apr 15:41:27,204 [pool-1-thread-1] INFO  TestBase  - AfterMethod
+27 Apr 15:41:27,205 [pool-1-thread-1] INFO  TestBase  - AfterClass
+27 Apr 15:41:27,206 [main] INFO  TestBase  - AfterTest
+27 Apr 15:41:27,223 [main] INFO  TestBase  - BeforeTest
+27 Apr 15:41:27,224 [pool-2-thread-1] INFO  TestBase  - BeforeClass
+27 Apr 15:41:27,225 [pool-2-thread-1] INFO  TestBase  - BeforeMethod
+27 Apr 15:41:27,227 [pool-2-thread-1] INFO  TestBase  - AfterMethod
+27 Apr 15:41:27,228 [pool-2-thread-1] INFO  TestBase  - AfterClass
+27 Apr 15:41:27,231 [main] INFO  TestBase  - AfterTest
+27 Apr 15:41:27,236 [main] INFO  TestBase  - BeforeTest
+27 Apr 15:41:27,237 [pool-3-thread-1] INFO  TestBase  - BeforeClass
+27 Apr 15:41:27,237 [pool-3-thread-1] INFO  TestBase  - BeforeMethod
+27 Apr 15:41:31,506 [pool-3-thread-1] INFO  TestBase  - Chrome Driver is launched
+27 Apr 15:41:31,506 [pool-3-thread-1] INFO  TestBase  - URL selected: http://www.java.com
+27 Apr 15:41:40,845 [pool-3-thread-1] INFO  TestBase  - AfterMethod
+27 Apr 15:41:40,846 [pool-3-thread-1] INFO  TestBase  - AfterClass
+27 Apr 15:41:40,846 [main] INFO  TestBase  - AfterTest
+27 Apr 15:41:40,856 [main] INFO  TestBase  - Browser closed
+27 Apr 15:43:02,085 [main] INFO  TestBase  - Log4J properties is initialised
+27 Apr 15:43:02,089 [main] INFO  TestBase  - browser selected in properties file: chrome
+27 Apr 15:43:02,101 [main] INFO  TestBase  - BeforeTest
+27 Apr 15:43:02,108 [main] INFO  TestBase  - BeforeClass
+27 Apr 15:43:02,114 [main] INFO  TestBase  - BeforeMethod
+27 Apr 15:43:14,993 [main] INFO  TestBase  - Chrome Driver is launched
+27 Apr 15:43:14,993 [main] INFO  TestBase  - URL selected: http://www.java.com
+27 Apr 15:43:21,027 [main] INFO  TestBase  - AfterMethod
+27 Apr 15:43:21,027 [main] INFO  TestBase  - AfterClass
+27 Apr 15:43:21,028 [main] INFO  TestBase  - AfterTest
+27 Apr 15:43:21,045 [main] INFO  TestBase  - Browser closed

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="system" value="windows" />
+
+	<test name="Test1">
+		<parameter name="browser" value="chromebrowser" />
+		<parameter name="username" value="username1" />
+		<parameter name="password" value="password1" />
+		<classes>
+			<class name="testNGDemo.ParameterisationTestNG" />
+		</classes>
+	</test> <!-- Test -->
+
+	</suite> <!-- Suite -->

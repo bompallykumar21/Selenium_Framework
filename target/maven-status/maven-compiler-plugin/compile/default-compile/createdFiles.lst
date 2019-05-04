@@ -1,0 +1,5 @@
+testBase\TestBase.class
+configReader\configReader.class
+configReader\ConfigurationReader.class
+testBase\domainObjects.class
+configReader\log4jConfigReader.class

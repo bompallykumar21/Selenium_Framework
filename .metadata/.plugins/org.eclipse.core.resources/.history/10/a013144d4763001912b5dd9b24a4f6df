@@ -1,0 +1,11 @@
+package test123;
+
+import org.testng.annotations.Test;
+
+public class test123 {
+
+@Test
+void test123() {
+	System.out.println("test");
+}
+}

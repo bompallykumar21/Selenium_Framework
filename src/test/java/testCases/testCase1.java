@@ -10,7 +10,8 @@ public class testCase1 extends TestBase{
 	@Test
 	public void testCase1() {
 		logger = Logger.getLogger("testCase1");
-		enterUrl("http://www.seleniumhq.org");		
+		enterUrl("http://www.seleniumhq.org");	 
+		
 			}
 	
 	@Test

@@ -17,5 +17,7 @@ public class testCase1 extends TestBase{
 	public void testCase2() {
 		logger = Logger.getLogger("testCase2");
 		enterUrl("http://www.google.com");	
+		
+		
 		}
 }

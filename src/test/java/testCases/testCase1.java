@@ -11,13 +11,11 @@ public class testCase1 extends TestBase{
 	public void testCase1() {
 		logger = Logger.getLogger("testCase1");
 		enterUrl("http://www.seleniumhq.org");		
-		System.out.println("Testing git");
-	}
+			}
 	
 	@Test
 	public void testCase2() {
 		logger = Logger.getLogger("testCase2");
 		enterUrl("http://www.google.com");	
-		System.out.println("Testing git");
-	}
+		}
 }

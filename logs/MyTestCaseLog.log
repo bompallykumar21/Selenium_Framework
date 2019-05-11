@@ -327,3 +327,150 @@
 27 Apr 15:43:21,027 [main] INFO  TestBase  - AfterClass
 27 Apr 15:43:21,028 [main] INFO  TestBase  - AfterTest
 27 Apr 15:43:21,045 [main] INFO  TestBase  - Browser closed
+11 May 15:13:07,573 [main] INFO  TestBase  - Log4J properties is initialised
+11 May 15:13:07,575 [main] INFO  TestBase  - browser selected in properties file: chrome
+11 May 15:13:07,588 [main] INFO  TestBase  - BeforeTest
+11 May 15:13:07,597 [main] INFO  TestBase  - BeforeClass
+11 May 15:13:07,600 [main] INFO  TestBase  - BeforeMethod
+11 May 15:13:07,634 [main] INFO  TestBase  - AfterMethod
+11 May 15:13:07,634 [main] INFO  TestBase  - AfterClass
+11 May 15:13:07,636 [main] INFO  TestBase  - AfterTest
+11 May 15:13:07,687 [main] INFO  TestBase  - Browser closed
+11 May 15:19:25,981 [main] INFO  TestBase  - Log4J properties is initialised
+11 May 15:19:25,984 [main] INFO  TestBase  - browser selected in properties file: chrome
+11 May 15:19:25,996 [main] INFO  TestBase  - BeforeTest
+11 May 15:19:26,006 [main] INFO  TestBase  - BeforeClass
+11 May 15:19:26,011 [main] INFO  TestBase  - BeforeMethod
+11 May 15:19:26,045 [main] INFO  TestBase  - AfterMethod
+11 May 15:19:26,046 [main] INFO  TestBase  - AfterClass
+11 May 15:19:26,048 [main] INFO  TestBase  - AfterTest
+11 May 15:19:26,066 [main] INFO  TestBase  - Browser closed
+11 May 15:19:50,969 [main] INFO  TestBase  - Log4J properties is initialised
+11 May 15:19:50,971 [main] INFO  TestBase  - browser selected in properties file: chrome
+11 May 15:19:50,985 [main] INFO  TestBase  - BeforeTest
+11 May 15:19:50,994 [main] INFO  TestBase  - BeforeClass
+11 May 15:19:50,997 [main] INFO  TestBase  - BeforeMethod
+11 May 15:19:51,031 [main] INFO  TestBase  - AfterMethod
+11 May 15:19:51,032 [main] INFO  TestBase  - AfterClass
+11 May 15:19:51,034 [main] INFO  TestBase  - AfterTest
+11 May 15:19:51,052 [main] INFO  TestBase  - Browser closed
+11 May 15:21:56,846 [main] INFO  TestBase  - Log4J properties is initialised
+11 May 15:21:56,849 [main] INFO  TestBase  - browser selected in properties file: chrome
+11 May 15:21:56,889 [main] INFO  TestBase  - BeforeTest
+11 May 15:21:56,907 [main] INFO  TestBase  - Launching Browser and enter url
+11 May 15:22:03,976 [main] INFO  TestBase  - Chrome Driver is launched
+11 May 15:22:03,976 [main] INFO  TestBase  - Environment selected: null
+11 May 15:25:09,370 [main] INFO  TestBase  - Log4J properties is initialised
+11 May 15:25:09,373 [main] INFO  TestBase  - browser selected in properties file: chrome
+11 May 15:25:09,386 [main] INFO  TestBase  - BeforeTest
+11 May 15:25:09,393 [main] INFO  TestBase  - Launching Browser and enter url
+11 May 15:25:14,119 [main] INFO  TestBase  - Chrome Driver is launched
+11 May 15:25:14,119 [main] INFO  TestBase  - Environment selected: null
+11 May 15:27:41,529 [main] INFO  TestBase  - Log4J properties is initialised
+11 May 15:27:41,532 [main] INFO  TestBase  - browser selected in properties file: chrome
+11 May 15:27:41,544 [main] INFO  TestBase  - BeforeTest
+11 May 15:27:41,551 [main] INFO  TestBase  - Launching Browser and enter url
+11 May 15:27:45,845 [main] INFO  TestBase  - Chrome Driver is launched
+11 May 15:27:45,845 [main] INFO  TestBase  - Environment selected: test
+11 May 15:27:45,846 [main] INFO  TestBase  - URL selected: https://www.weddingshop.com/register
+11 May 15:27:49,784 [main] INFO  TestBase  - BeforeMethod
+11 May 15:27:51,332 [main] INFO  TestBase  - AfterMethod
+11 May 15:27:51,332 [main] INFO  TestBase  - Exiting driver
+11 May 15:27:52,149 [main] INFO  TestBase  - AfterTest
+11 May 15:27:52,162 [main] INFO  TestBase  - Browser closed
+11 May 15:30:37,487 [main] INFO  TestBase  - Log4J properties is initialised
+11 May 15:30:37,526 [main] INFO  TestBase  - browser selected in properties file: chrome
+11 May 15:30:37,541 [main] INFO  TestBase  - BeforeTest
+11 May 15:30:37,550 [main] INFO  TestBase  - Launching Browser and enter url
+11 May 15:30:45,121 [main] INFO  TestBase  - Chrome Driver is launched
+11 May 15:30:45,122 [main] INFO  TestBase  - Environment selected: test
+11 May 15:30:45,122 [main] INFO  TestBase  - URL selected: https://www.weddingshop.com/register
+11 May 15:30:50,766 [main] INFO  TestBase  - BeforeMethod
+11 May 15:30:53,088 [main] INFO  TestBase  - AfterMethod
+11 May 15:30:53,089 [main] INFO  TestBase  - Exiting driver
+11 May 15:30:53,938 [main] INFO  TestBase  - AfterTest
+11 May 15:30:53,951 [main] INFO  TestBase  - Browser closed
+11 May 15:32:52,797 [main] INFO  TestBase  - Log4J properties is initialised
+11 May 15:32:52,800 [main] INFO  TestBase  - browser selected in properties file: chrome
+11 May 15:32:52,812 [main] INFO  TestBase  - BeforeTest
+11 May 15:32:52,819 [main] INFO  TestBase  - Launching Browser and enter url
+11 May 15:32:59,011 [main] INFO  TestBase  - Chrome Driver is launched
+11 May 15:32:59,011 [main] INFO  TestBase  - Environment selected: test
+11 May 15:32:59,012 [main] INFO  TestBase  - URL selected: https://www.weddingshop.com/register
+11 May 15:33:04,421 [main] INFO  TestBase  - BeforeMethod
+11 May 15:33:05,177 [main] INFO  CreateList  - Entered Title value
+11 May 15:33:06,771 [main] INFO  CreateList  - Entered First Name
+11 May 15:33:06,773 [main] INFO  CreateList  - AfterMethod
+11 May 15:33:06,774 [main] INFO  CreateList  - Exiting driver
+11 May 15:33:07,590 [main] INFO  CreateList  - AfterTest
+11 May 15:33:07,601 [main] INFO  CreateList  - Browser closed
+11 May 15:43:41,514 [main] INFO  TestBase  - Log4J properties is initialised
+11 May 15:43:41,516 [main] INFO  TestBase  - browser selected in properties file: chrome
+11 May 15:43:41,525 [main] INFO  TestBase  - BeforeTest
+11 May 15:43:41,534 [main] INFO  TestBase  - Launching Browser and enter url
+11 May 15:43:46,983 [main] INFO  TestBase  - Chrome Driver is launched
+11 May 15:43:46,983 [main] INFO  TestBase  - Environment selected: test
+11 May 15:43:46,983 [main] INFO  TestBase  - URL selected: https://www.weddingshop.com/register
+11 May 15:43:51,280 [main] INFO  TestBase  - BeforeMethod
+11 May 15:43:52,468 [main] INFO  CreateList  - Entered Title value
+11 May 15:43:52,996 [main] INFO  CreateList  - Entered First Name
+11 May 15:43:52,998 [main] INFO  CreateList  - AfterMethod
+11 May 15:43:52,999 [main] INFO  CreateList  - Exiting driver
+11 May 15:43:53,712 [main] INFO  CreateList  - AfterTest
+11 May 15:43:53,726 [main] INFO  CreateList  - Browser closed
+11 May 16:00:22,107 [main] INFO  TestBase  - Log4J properties is initialised
+11 May 16:00:22,109 [main] INFO  TestBase  - browser selected in properties file: chrome
+11 May 16:00:22,123 [main] INFO  TestBase  - BeforeTest
+11 May 16:00:22,131 [main] INFO  TestBase  - Launching Browser and enter url
+11 May 16:00:26,371 [main] INFO  TestBase  - Chrome Driver is launched
+11 May 16:00:26,372 [main] INFO  TestBase  - Environment selected: test
+11 May 16:00:26,372 [main] INFO  TestBase  - URL selected: https://www.weddingshop.com/register
+11 May 16:00:30,558 [main] INFO  TestBase  - BeforeMethod
+11 May 16:00:31,508 [main] INFO  CreateList  - Entered Title value
+11 May 16:00:31,921 [main] INFO  CreateList  - Entered First Name
+11 May 16:00:31,952 [main] INFO  CreateList  - AfterMethod
+11 May 16:00:31,952 [main] INFO  CreateList  - Exiting driver
+11 May 16:00:31,953 [main] INFO  CreateList  - AfterTest
+11 May 16:00:31,970 [main] INFO  CreateList  - Browser closed
+11 May 16:11:52,304 [main] INFO  TestBase  - Log4J properties is initialised
+11 May 16:11:52,306 [main] INFO  TestBase  - browser selected in properties file: chrome
+11 May 16:11:52,316 [main] INFO  TestBase  - BeforeTest
+11 May 16:11:52,323 [main] INFO  TestBase  - Launching Browser and enter url
+11 May 16:11:56,670 [main] INFO  TestBase  - Chrome Driver is launched
+11 May 16:11:56,670 [main] INFO  TestBase  - Environment selected: test
+11 May 16:11:56,670 [main] INFO  TestBase  - URL selected: https://www.weddingshop.com/register
+11 May 16:12:00,745 [main] INFO  TestBase  - BeforeMethod
+11 May 16:12:02,009 [main] INFO  CreateList  - Entered Title value
+11 May 16:12:02,356 [main] INFO  CreateList  - Entered First Name
+11 May 16:12:02,427 [main] INFO  CreateList  - AfterMethod
+11 May 16:12:02,427 [main] INFO  CreateList  - Exiting driver
+11 May 16:12:02,428 [main] INFO  CreateList  - AfterTest
+11 May 16:12:02,443 [main] INFO  CreateList  - Browser closed
+11 May 17:18:38,636 [main] INFO  TestBase  - Log4J properties is initialised
+11 May 17:18:38,639 [main] INFO  TestBase  - browser selected in properties file: chrome
+11 May 17:18:38,639 [main] INFO  TestBase  - BeforeTest
+11 May 17:18:38,644 [main] INFO  TestBase  - Launching Browser and enter url
+11 May 17:18:45,196 [main] INFO  TestBase  - Chrome Driver is launched
+11 May 17:18:45,196 [main] INFO  TestBase  - Environment selected: test
+11 May 17:18:45,196 [main] INFO  TestBase  - URL selected: https://www.weddingshop.com/register
+11 May 17:18:49,034 [main] INFO  TestBase  - BeforeMethod
+11 May 17:18:49,753 [main] INFO  CreateList  - Entered Title value
+11 May 17:18:50,042 [main] INFO  CreateList  - Entered First Name
+11 May 17:18:50,090 [main] INFO  CreateList  - AfterMethod
+11 May 17:18:50,090 [main] INFO  CreateList  - Exiting driver
+11 May 17:18:50,091 [main] INFO  CreateList  - AfterTest
+11 May 17:18:50,093 [main] INFO  CreateList  - Browser closed
+11 May 17:20:33,508 [main] INFO  TestBase  - Log4J properties is initialised
+11 May 17:20:33,513 [main] INFO  TestBase  - browser selected in properties file: chrome
+11 May 17:20:33,516 [main] INFO  TestBase  - BeforeTest
+11 May 17:20:33,524 [main] INFO  TestBase  - Launching Browser and enter url
+11 May 17:20:37,944 [main] INFO  TestBase  - Chrome Driver is launched
+11 May 17:20:37,944 [main] INFO  TestBase  - Environment selected: test
+11 May 17:20:37,944 [main] INFO  TestBase  - URL selected: https://www.weddingshop.com/register
+11 May 17:20:42,572 [main] INFO  TestBase  - BeforeMethod
+11 May 17:20:43,565 [main] INFO  CreateList  - Entered Title value
+11 May 17:20:44,236 [main] INFO  CreateList  - Entered First Name
+11 May 17:20:44,335 [main] INFO  CreateList  - AfterMethod
+11 May 17:20:44,336 [main] INFO  CreateList  - Exiting driver
+11 May 17:20:44,339 [main] INFO  CreateList  - AfterTest
+11 May 17:20:44,341 [main] INFO  CreateList  - Browser closed

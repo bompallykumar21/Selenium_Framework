@@ -22,8 +22,7 @@ public class CreateAListMultipleValues extends TestBase{
 		register.enterTitleValue("Page Object Model demo");		
 		register.enterNameValue("FirstName");			
 
-		
-		
+				
 		List<WebElement> textFields=new ArrayList<WebElement>();
 //		textFields= driver.findElements(By.xpath("//input[@type='text']"));
 		textFields=register.getTextFields();  //getting the list from the page

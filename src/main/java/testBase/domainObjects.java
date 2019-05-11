@@ -18,6 +18,6 @@ public class domainObjects {
 	
 	public static Logger logger;
 	String porpFileLocation="config/configuration.properties";
-	String porpFileLocation2="config/configuration2.properties";
+//	String porpFileLocation2="config/configuration2.properties";
 	
 }

@@ -11,7 +11,7 @@ public class testCase1 extends TestBase{
 	public void testCase1() {
 		logger = Logger.getLogger("testCase1");
 		enterUrl("http://www.seleniumhq.org");		
-		System.Out.println("Githum Desktop");
+		System.out.println("Githum Desktop");
 		
 			}
 	
@@ -22,3 +22,4 @@ public class testCase1 extends TestBase{
 		
 		
 		}
+}

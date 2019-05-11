@@ -38,12 +38,15 @@ public class TestBase extends domainObjects{
 
 	@BeforeClass
 	public void BeforeClass() {
-		logger.info("BeforeClass");
+		logger.info("Launching Browser and enter url");
+		launchBrowser();
+		enterUrl();
 	}
 
 	@AfterClass
 	public void AfterClass() {
-		logger.info("AfterClass");
+		logger.info("Exiting driver");
+//		driver.quit();
 	}
 
 	@BeforeMethod
@@ -104,21 +107,22 @@ public class TestBase extends domainObjects{
 		File file=new File(porpFileLocation);  //file location
 		FileInputStream inFile=new FileInputStream(file);  //reading the file
 
-		File file2=new File(porpFileLocation2);  //file location
-		FileInputStream inFile2=new FileInputStream(file2);  //reading the file
+//		File file2=new File(porpFileLocation2);  //file location
+//		FileInputStream inFile2=new FileInputStream(file2);  //reading the file
 
 		Properties prop=new Properties();
 		prop.load(inFile);  //loading properties information		
-		prop.load(inFile2);
+//		prop.load(inFile2);
 
 		browser=prop.getProperty("browser");
 		logger.info("browser selected in properties file: "+ browser);
 
-		url=prop.getProperty("testurl");
+		testurl=prop.getProperty("testurl");
 		//logger.info("url selected in properties file: "+ url);
 
 		password=prop.getProperty("password");
 		//		logger.info("password selected in properties file: "+ password);
+		environment=prop.getProperty("environment");
 	}
 
 	//Initializing logs 

@@ -9,6 +9,11 @@ test-output/*
 *.o
 *.so
 .metadata/*
+.idea/*
+logs/*
+*.iml
+*.log
+.classpath
 
 # Packages #
 ############
@@ -38,3 +43,5 @@ test-output/*
 .Trashes
 ehthumbs.db
 Thumbs.db
+/.metadata/
+/target/

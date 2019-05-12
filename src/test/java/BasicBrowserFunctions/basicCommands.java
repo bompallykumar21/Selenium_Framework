@@ -1,9 +1,11 @@
 package BasicBrowserFunctions;
 
-import java.time.LocalTime;
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.time.LocalTime;
 
 public class basicCommands {
 

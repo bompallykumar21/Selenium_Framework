@@ -9,10 +9,12 @@ import pageObjects.WeddingShopHomePage;
 import pageObjects.WeddingShopRegisterPage;
 import testBase.TestBase;
 
+import java.io.IOException;
+
 public class CreateAList extends TestBase{
 
 	@Test
-	public void createAList() {
+	public void createAList() throws IOException {
 		logger = Logger.getLogger("CreateList");
 		
 		WeddingShopRegisterPage register=new WeddingShopRegisterPage();
@@ -22,7 +24,9 @@ public class CreateAList extends TestBase{
 		
 		
 //		register.getTxtEnterName().sendKeys("First name");		
-		register.enterNameValue("FirstName");			
+		register.enterNameValue("FirstName");
+
+		CaptureScreenshots(driver,"weddingShop");
 		
 
 //		WebElement txtEnterFirstName=driver.findElement(By.xpath("//input[@id='name']"));

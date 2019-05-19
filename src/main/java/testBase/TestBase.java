@@ -28,12 +28,15 @@ public class TestBase extends domainObjects{
 		ConfigReader();
 //		launchBrowser();
 		//		enterUrl();
+		CaptureReports();
 	}
 
 	@AfterSuite
-	public void closeBrowser() {
-//		driver.quit();
+	public void closeBrowser() throws InterruptedException {
+		Thread.sleep(5000);
+		driver.quit();
 		logger.info("Browser closed");
+		extentReports.flush();
 	}
 
 	@BeforeClass

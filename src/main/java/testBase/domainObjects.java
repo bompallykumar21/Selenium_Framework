@@ -2,10 +2,10 @@ package testBase;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import utilities.Utilities;
 
 
-
-public class domainObjects {
+public class domainObjects extends Utilities {
 
 	public String browser;
 	public String url;

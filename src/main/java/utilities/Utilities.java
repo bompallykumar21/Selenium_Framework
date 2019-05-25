@@ -14,7 +14,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.apache.commons.io.FileUtils;
-import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -80,11 +79,12 @@ public class Utilities {
     }
 
 
-    public void CaptureScreenshots(WebDriver driver,String screenName ) throws IOException {
+    public String CaptureScreenshots(WebDriver driver, String screenName ) throws IOException {
         File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);  //source
         String sreenshotPath=System.getProperty("user.dir")+"/screenshots/"+screenName+getCurrentDateTime()+".png";  //destination
         System.out.println(sreenshotPath);
         FileUtils.copyFile(src, new File(sreenshotPath) );
+        return sreenshotPath;
     }
 
     public String getCurrentDateTime(){
@@ -96,12 +96,18 @@ public class Utilities {
     }
 
 
-    public void CaptureReports(){
-        String reportPath=System.getProperty("user.dir")+"/Reports/"+getCurrentDateTime()+".html" ;
-        extentReports=new ExtentReports();
-        htmlReporter=new ExtentHtmlReporter(reportPath);
-        htmlReporter.loadXMLConfig(System.getProperty("user.dir")+"/src/main/resources/ReportConfig.xml");
+    public void initializeExtentReports(){
+        String reportPath=System.getProperty("user.dir")+"/Reports/"+getCurrentDateTime()+".html" ;  //report path
+        extentReports=new ExtentReports();  //start extents reports
+        htmlReporter=new ExtentHtmlReporter(reportPath);  //start html reporter
+        htmlReporter.loadXMLConfig(System.getProperty("user.dir")+"/src/main/resources/ReportConfig.xml");  //loading config file format
         extentReports.attachReporter(htmlReporter);
+        extentReports.setSystemInfo("Environment","Stage");
+        extentReports.setSystemInfo("Release version","3.5.6");
+        extentReports.setSystemInfo("Executed by","Testet1");
+        extentReports.setSystemInfo("Author","Tester2");
+
+
 //        test=extentReports.createTest("testCase1");
 //        test.pass("TestCase is passed");
 //

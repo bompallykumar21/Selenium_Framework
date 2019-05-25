@@ -15,6 +15,7 @@ public class domainObjects extends Utilities {
 	public String environment;
 	public String testurl;
 	public String stageurl;
+	public String screenPath;
 	
 	public static Logger logger;
 	String porpFileLocation="config/configuration.properties";

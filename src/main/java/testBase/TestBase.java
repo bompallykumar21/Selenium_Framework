@@ -28,13 +28,13 @@ public class TestBase extends domainObjects{
 		ConfigReader();
 //		launchBrowser();
 		//		enterUrl();
-		CaptureReports();
+		initializeExtentReports();
 	}
 
 	@AfterSuite
 	public void closeBrowser() throws InterruptedException {
 		Thread.sleep(5000);
-		driver.quit();
+//		driver.quit();
 		logger.info("Browser closed");
 		extentReports.flush();
 	}
@@ -49,7 +49,7 @@ public class TestBase extends domainObjects{
 	@AfterClass
 	public void AfterClass() {
 		logger.info("Exiting driver");
-//		driver.quit();
+		driver.quit();
 	}
 
 	@BeforeMethod

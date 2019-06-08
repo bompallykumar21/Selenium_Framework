@@ -1,17 +1,13 @@
-package testCasesUsingPOM;
+package WaitMethods;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-
-import pageObjects.WeddingShopHomePage;
 import pageObjects.WeddingShopRegisterPage;
 import testBase.TestBase;
 
 import java.io.IOException;
 
-public class CreateAList extends TestBase{
+public class Sleep extends TestBase{
 
 	@Test
 	public void createAList() throws IOException, InterruptedException {

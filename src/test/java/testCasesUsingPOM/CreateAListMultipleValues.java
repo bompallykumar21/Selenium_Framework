@@ -23,7 +23,7 @@ public class CreateAListMultipleValues extends TestBase{
 	@Test
 	public void createAList() throws IOException {
 		logger = Logger.getLogger("CreateList");  //log 4j
-		test=extentReports.createTest("CreateAList");  //Initiate extent report
+		test=extentReports.createTest("Sleep");  //Initiate extent report
 		WeddingShopRegisterPage register=new WeddingShopRegisterPage();
 
 		register.enterTitleValue("Page Object Model demo");

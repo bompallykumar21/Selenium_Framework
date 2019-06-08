@@ -14,6 +14,9 @@ logs/*
 *.iml
 *.log
 .classpath
+*.html
+*.png
+logs/*
 
 # Packages #
 ############

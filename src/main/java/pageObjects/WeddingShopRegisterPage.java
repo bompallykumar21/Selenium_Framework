@@ -29,6 +29,14 @@ public class WeddingShopRegisterPage extends TestBase{
 	@FindAll({@FindBy(xpath="//input[@type='text']")})
 	List<WebElement> textFields;
 
+	public WebElement getBtnSubmit() {
+		return btnSubmit;
+	}
+
+	@FindBy(xpath="//button[contains(text(),'submit')]")
+	WebElement btnSubmit;
+
+
 //	List<WebElement> textFields=new ArrayList<WebElement>();
 //	textFields= driver.findElements(By.xpath("//input[@type='text']"));
 	

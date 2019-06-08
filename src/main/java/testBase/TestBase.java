@@ -4,7 +4,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
+import com.aventstack.extentreports.MediaEntityBuilder;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -58,7 +60,9 @@ public class TestBase extends domainObjects{
 	}
 
 	@AfterMethod
-	public void AfterMethod() {
+	public void AfterMethod() throws IOException {
+		screenPath=CaptureScreenshots(driver, "extentReportTest");
+		test.info("Screenshot", MediaEntityBuilder.createScreenCaptureFromPath(screenPath).build());
 		logger.info("AfterMethod");
 	}
 
@@ -96,6 +100,8 @@ public class TestBase extends domainObjects{
 			driver=new ChromeDriver();
 			driver.manage().window().maximize();
 			logger.info("Chrome Driver is launched");
+//			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+//			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		}
 		else
 			if (browser.equalsIgnoreCase("ie")) {

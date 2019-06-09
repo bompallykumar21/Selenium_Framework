@@ -45,7 +45,7 @@ public class TestBase extends domainObjects{
 	public void BeforeClass() {
 		logger.info("Launching Browser and enter url");
 		launchBrowser();
-		enterUrl();
+//		enterUrl();
 	}
 
 	@AfterClass

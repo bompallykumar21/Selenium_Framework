@@ -14,6 +14,34 @@ public class RediffCreateAccount extends TestBase {
     @FindBy(xpath="//input[starts-with(@name,'chk_altemail')]")
     WebElement chkboxAlternateEmail;
 
+    @FindBy(xpath="//input[@value='m']")
+    WebElement radioBtnMale;
+
+    @FindBy(xpath="//input[@value='f']")
+    WebElement radioBtnFemale;
+
+    @FindBy(xpath="//select[starts-with(@name,'DOB_Day')]")
+    WebElement drpdwnDay;
+
+    @FindBy(xpath="//select[@id='country']")
+    WebElement drpdwnCountry;
+
+    public WebElement getDrpdwnDay() {
+        return drpdwnDay;
+    }
+
+    public WebElement getDrpdwnCountry() {
+        return drpdwnCountry;
+    }
+
+    public WebElement getRadioBtnMale() {
+        return radioBtnMale;
+    }
+
+    public WebElement getRadioBtnFemale() {
+        return radioBtnFemale;
+    }
+
     public WebElement getChkboxAlternateEmail() {
         return chkboxAlternateEmail;
     }

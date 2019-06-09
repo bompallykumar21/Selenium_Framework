@@ -12,8 +12,8 @@ public class VerifyCheckBoxes extends TestBase {
 
     @Test
     public void verifyCheckBoxes(){
-        logger = Logger.getLogger("Explicit Wait");
-        test = extentReports.createTest("Explicit Wait");
+        logger = Logger.getLogger("CheckBoxes Wait");
+        test = extentReports.createTest("CheckBoxes Wait");
         RediffCreateAccount rediffCreateAccount=new RediffCreateAccount();
 
         logger.info("is Checkbox Displayed: "+rediffCreateAccount.getChkboxAlternateEmail().isDisplayed());

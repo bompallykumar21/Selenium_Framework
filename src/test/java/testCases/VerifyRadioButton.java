@@ -16,7 +16,8 @@ public class VerifyRadioButton extends TestBase {
         test = extentReports.createTest("Radiobutton");
         RediffCreateAccount rediffCreateAccount=new RediffCreateAccount();
 
-        logger.info("is Radiobutton Displayed: "+rediffCreateAccount.getRadioBtnMale().isDisplayed());
+        logger.info("is Radiobutton Displayed: "+rediffCreateAccount.getRadioBtnMale().isDisplayed()); 
+        
         logger.info("is Radiobutton Enabled: "+rediffCreateAccount.getRadioBtnMale().isEnabled());
         logger.info("is Radiobutton Selected: "+rediffCreateAccount.getRadioBtnMale().isSelected());
         test.info("is Radiobutton Displayed: "+rediffCreateAccount.getRadioBtnMale().isDisplayed());

@@ -36,7 +36,7 @@ public class VerifyDropdownValues extends TestBase {
         test.info(selectCountry.getFirstSelectedOption().getText());
         selectCountry.selectByVisibleText("Austria");  //selecting dropdown value based on visible text
         Thread.sleep(3000);
-        test.info(selectCountry.getFirstSelectedOption().getText());
+        test.info(selectCountry.getFirstSelectedOption().getText());  //to fetch selected value in the dropdown
         logger.info("");
         test.info("");
 

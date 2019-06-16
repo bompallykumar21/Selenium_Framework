@@ -9,11 +9,11 @@ import testBase.TestBase;
 
 public class VerifyRadioButton extends TestBase {
 
-
     @Test
     public void verifyRadioButton(){
         logger = Logger.getLogger("Radiobutton");
         test = extentReports.createTest("Radiobutton");
+        enterUrl("https://register.rediff.com/register/register.php?FormName=user_details");
         RediffCreateAccount rediffCreateAccount=new RediffCreateAccount();
 
         logger.info("is Radiobutton Displayed: "+rediffCreateAccount.getRadioBtnMale().isDisplayed()); 

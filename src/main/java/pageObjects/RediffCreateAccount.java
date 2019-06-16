@@ -25,8 +25,15 @@ public class RediffCreateAccount extends TestBase {
 
     @FindBy(xpath="//select[@id='country']")
     WebElement drpdwnCountry;
+    
+    @FindBy(xpath="//input[@name='proceed']")
+    WebElement btnGo;
 
-    public WebElement getDrpdwnDay() {
+    public WebElement getBtnGo() {
+		return btnGo;
+	}
+
+	public WebElement getDrpdwnDay() {
         return drpdwnDay;
     }
 

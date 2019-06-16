@@ -10,6 +10,7 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -97,8 +98,13 @@ public class TestBase extends domainObjects{
 	public void launchBrowser() {	
 		if(browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\chromedriver.exe");
-			driver=new ChromeDriver();
-			driver.manage().window().maximize();
+		
+			 ChromeOptions ops = new ChromeOptions();
+//	         ops.addArguments("--disable-notifications");
+//	         ops.addArguments("disable-infobars");
+	         ops.addArguments("start-maximized");
+			driver=new ChromeDriver(ops);
+//			driver.manage().window().maximize();
 			logger.info("Chrome Driver is launched");
 //			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 //			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);

@@ -32,7 +32,7 @@ public class VerifyBootstapDropdownValues extends TestBase {
             if(listdrpdwnValues.get(i).getText().equalsIgnoreCase("Learn XQuery")){
                 test.pass("Learn XQuery value is displayed");
                 listdrpdwnValues.get(i).click();
-                break; 
+                break;
             }
         }
 
